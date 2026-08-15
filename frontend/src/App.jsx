@@ -9,7 +9,7 @@ import Landing from './pages/Landing';
 import Login from './pages/Login';
 import NewComplaint from './pages/NewComplaint';
 import Register from './pages/Register';
-
+import Footer from './components/Footer';   // add this line
 function Home() {
   const { user } = useAuth();
   if (!user) return <Landing />;
